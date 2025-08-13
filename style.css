@@ -1,0 +1,112 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#navbar{
+    background-color: rgb(14, 8, 183);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px orange;
+}
+.link{
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.link a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.link a:hover{
+    background-color: transparent;
+    color: orange;
+    transition: background-color 0.3s ease, color 0.3s ease ;
+    transform: rotate(5deg);
+}
+.main-image{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0   ;
+}
+.main-title{
+    text-align: center;
+    color: rgb(14, 8, 183);
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.content h2 {
+    color: rgb(14, 8, 183);
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    display: flex;
+}
+#what-is-css {
+    padding: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    align-items: right;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: rgb(14, 8, 183);
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.content {
+    padding: 20px;
+    border: 1px solid rgb(14, 8, 183);
+    border-radius: 5px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-button{
+    padding: 10px 20px;
+    background-color: rgb(14, 8, 183);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 1rem;}
+.contact-button:hover{
+    background-color: orange;
+}
+footer{
+    background-color: rgb(14, 8, 183);
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 100%;
+
+}
